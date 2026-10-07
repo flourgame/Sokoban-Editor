@@ -1,0 +1,120 @@
+{
+    "schemaVersion": 1,
+    "levelId": "Generated_20261006152140397_fe5df7",
+    "name": "20 20 测试",
+    "verifiedMoves": -1,
+    "size": {
+        "width": 20,
+        "height": 20
+    },
+    "terrain": [
+        "####################",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "#..................#",
+        "####################"
+    ],
+    "player": {
+        "x": 1,
+        "y": 1
+    },
+    "boxes": [
+        {
+            "x": 3,
+            "y": 3
+        }
+    ],
+    "goals": [
+        {
+            "x": 5,
+            "y": 3
+        }
+    ],
+    "metadata": {
+        "author": "",
+        "tags": [],
+        "difficulty": 1,
+        "parPushes": 0,
+        "parMoves": 0,
+        "notes": ""
+    },
+    "generation": {
+        "isGenerated": true,
+        "seed": 1720714812,
+        "generatorVersion": "",
+        "parameters": {
+            "width": 8,
+            "height": 8,
+            "boxCount": 0,
+            "minPushes": 1,
+            "maxPushes": 60,
+            "minMoves": 0,
+            "maxMoves": 0,
+            "parameterVersion": 2,
+            "difficulty": 2,
+            "wallPercent": -1,
+            "seed": 0,
+            "budgetSeconds": 60,
+            "maxCandidates": 400,
+            "candidateSolveMs": 2000
+        },
+        "complexity": {
+            "evaluatorVersion": "complexity-1.0",
+            "valid": false,
+            "difficulty": 0,
+            "score": 0.0,
+            "dependencyScore": 0.0,
+            "planningScore": 0.0,
+            "spaceScore": 0.0,
+            "trapScore": 0.0,
+            "dependencyEdges": 0,
+            "dependencyChain": 0,
+            "temporaryExcursions": 0,
+            "goalDepartures": 0,
+            "boxRevisits": 0,
+            "sharedCriticalCells": 0,
+            "destinationBlockPairs": 0,
+            "solvedBranches": 0,
+            "deadBranches": 0,
+            "unknownBranches": 0,
+            "witnessMoves": "",
+            "explanation": ""
+        },
+        "quality": {
+            "evaluatorVersion": "html-quality-3.0",
+            "score": 0.0,
+            "floorUsage": 0.0,
+            "wallStructure": 0.0,
+            "boxInteraction": 0.0,
+            "pushComplexity": 0.0,
+            "spatialDistribution": 0.0,
+            "pathDiversity": 0.0,
+            "wallDensity": 0.0,
+            "solutionEfficiency": 0.0,
+            "referencePushes": 0,
+            "usedFloor": 0,
+            "unusedFloor": 0
+        }
+    },
+    "solution": {
+        "status": "Unknown",
+        "moves": "",
+        "pushes": 0,
+        "moveCount": 0
+    }
+}

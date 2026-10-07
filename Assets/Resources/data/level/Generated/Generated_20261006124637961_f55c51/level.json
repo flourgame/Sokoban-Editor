@@ -1,0 +1,119 @@
+{
+    "schemaVersion": 1,
+    "levelId": "Generated_20261006124637961_f55c51",
+    "name": "生成关卡 · 普通",
+    "verifiedMoves": 28,
+    "size": {
+        "width": 10,
+        "height": 10
+    },
+    "terrain": [
+        "##########",
+        "#........#",
+        "##.......#",
+        "#.......##",
+        "##.......#",
+        "#....##..#",
+        "#........#",
+        "##....##.#",
+        "#....##..#",
+        "##########"
+    ],
+    "player": {
+        "x": 3,
+        "y": 4
+    },
+    "boxes": [
+        {
+            "x": 5,
+            "y": 2
+        },
+        {
+            "x": 6,
+            "y": 3
+        },
+        {
+            "x": 4,
+            "y": 1
+        }
+    ],
+    "goals": [
+        {
+            "x": 8,
+            "y": 6
+        },
+        {
+            "x": 3,
+            "y": 3
+        },
+        {
+            "x": 7,
+            "y": 1
+        }
+    ],
+    "metadata": {
+        "author": "",
+        "tags": [
+            "generated"
+        ],
+        "difficulty": 2,
+        "parPushes": 11,
+        "parMoves": 28,
+        "notes": "复杂度估计；complexity-1.0"
+    },
+    "generation": {
+        "isGenerated": true,
+        "seed": -2026369391,
+        "generatorVersion": "incremental-search-2.1",
+        "parameters": {
+            "width": 10,
+            "height": 10,
+            "boxCount": 0,
+            "minMoves": 20,
+            "maxMoves": 60,
+            "difficulty": 2,
+            "wallPercent": -1,
+            "seed": -2026369391,
+            "budgetSeconds": 60,
+            "maxCandidates": 300,
+            "candidateSolveMs": 2000
+        },
+        "complexity": {
+            "evaluatorVersion": "complexity-1.0",
+            "valid": true,
+            "difficulty": 2,
+            "score": 29.583332061767578,
+            "dependencyScore": 0.4166666567325592,
+            "planningScore": 0.25,
+            "spaceScore": 0.25,
+            "trapScore": 0.1666666716337204,
+            "dependencyEdges": 1,
+            "dependencyChain": 2,
+            "temporaryExcursions": 1,
+            "goalDepartures": 0,
+            "boxRevisits": 0,
+            "sharedCriticalCells": 0,
+            "destinationBlockPairs": 1,
+            "solvedBranches": 10,
+            "deadBranches": 2,
+            "unknownBranches": 0,
+            "witnessMoves": "uuuRRRlrdLLulDrdrRurDDDulllddrrR",
+            "explanation": "复杂度估计：普通（29.6/100）\n分项：依赖 14.6/35 · 腾挪 7.5/30 · 空间 5.0/20 · 陷阱 2.5/15\n阻挡依赖 1 对 · 依赖链 2 个箱子\n临时腾挪 1 次 · 搬离目标 0 次 · 重新处理箱子 0 次\n共用关键格 0 个 · 推入格阻挡 1 对\n替代分支：可解 10 / 无解 2 / 未确定 0\n已找到复杂度更低的替代解，按较低分数评估。（有限探查，需试玩校准）"
+        },
+        "quality": {
+            "evaluatorVersion": "layout-quality-1.0",
+            "score": 57.36111068725586,
+            "floorUsage": 0.46296295523643494,
+            "wallStructure": 1.0,
+            "boxInteraction": 0.3055555522441864,
+            "usedFloor": 25,
+            "unusedFloor": 29
+        }
+    },
+    "solution": {
+        "status": "Solved",
+        "moves": "uuuRRRlDrDLLdrRurDDulllddrrR",
+        "pushes": 11,
+        "moveCount": 28
+    }
+}

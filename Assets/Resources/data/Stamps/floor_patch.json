@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "stampId": "floor_patch",
+  "name": "地面区域",
+  "width": 2,
+  "height": 2,
+  "cells": [
+    { "x": 0, "y": 0 },
+    { "x": 1, "y": 0 },
+    { "x": 0, "y": 1 },
+    { "x": 1, "y": 1 }
+  ]
+}

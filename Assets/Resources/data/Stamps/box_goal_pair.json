@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "stampId": "box_goal_pair",
+  "name": "箱子与目标",
+  "width": 2,
+  "height": 1,
+  "cells": [
+    { "x": 0, "y": 0, "box": true },
+    { "x": 1, "y": 0, "goal": true }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    { "folder": "1", "levelId": "L001", "title": "第一步", "order": 1, "source": "BuiltIn" },
+    { "folder": "2", "levelId": "L002", "title": "转身练习", "order": 2, "source": "BuiltIn" },
+    { "folder": "3", "levelId": "L003", "title": "双箱入位", "order": 3, "source": "BuiltIn" }
+  ]
+}

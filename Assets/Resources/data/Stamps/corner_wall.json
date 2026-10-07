@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "stampId": "corner_wall",
+  "name": "直角墙",
+  "width": 3,
+  "height": 3,
+  "cells": [
+    { "x": 0, "y": 0, "wall": true },
+    { "x": 1, "y": 0, "wall": true },
+    { "x": 2, "y": 0, "wall": true },
+    { "x": 0, "y": 1, "wall": true },
+    { "x": 0, "y": 2, "wall": true }
+  ]
+}

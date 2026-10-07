@@ -1,0 +1,100 @@
+{
+    "schemaVersion": 1,
+    "levelId": "L003",
+    "name": "双箱入位",
+    "verifiedMoves": 9,
+    "size": {
+        "width": 10,
+        "height": 8
+    },
+    "terrain": [
+        "##########",
+        "#........#",
+        "#..##....#",
+        "#........#",
+        "#........#",
+        "#....##..#",
+        "#........#",
+        "##########"
+    ],
+    "player": {
+        "x": 2,
+        "y": 1
+    },
+    "boxes": [
+        {
+            "x": 4,
+            "y": 3
+        },
+        {
+            "x": 6,
+            "y": 4
+        }
+    ],
+    "goals": [
+        {
+            "x": 7,
+            "y": 3
+        },
+        {
+            "x": 7,
+            "y": 4
+        }
+    ],
+    "metadata": {
+        "author": "Builtin",
+        "tags": [
+            "multi-box"
+        ],
+        "difficulty": 3,
+        "parPushes": 4,
+        "parMoves": 9,
+        "notes": "双箱基础布局"
+    },
+    "generation": {
+        "isGenerated": false,
+        "seed": 0,
+        "generatorVersion": "",
+        "parameters": {
+            "width": 8,
+            "height": 8,
+            "boxCount": 2,
+            "minMoves": 20,
+            "maxMoves": 60,
+            "difficulty": 2,
+            "wallPercent": 20,
+            "seed": 0,
+            "budgetSeconds": 60,
+            "maxCandidates": 200,
+            "candidateSolveMs": 2000
+        },
+        "complexity": {
+            "evaluatorVersion": "complexity-1.0",
+            "valid": false,
+            "difficulty": 0,
+            "score": 0.0,
+            "dependencyScore": 0.0,
+            "planningScore": 0.0,
+            "spaceScore": 0.0,
+            "trapScore": 0.0,
+            "dependencyEdges": 0,
+            "dependencyChain": 0,
+            "temporaryExcursions": 0,
+            "goalDepartures": 0,
+            "boxRevisits": 0,
+            "sharedCriticalCells": 0,
+            "destinationBlockPairs": 0,
+            "solvedBranches": 0,
+            "deadBranches": 0,
+            "unknownBranches": 0,
+            "witnessMoves": "",
+            "explanation": ""
+        }
+    },
+    "solution": {
+        "status": "Solved",
+        "moves": "ddrRRRldR",
+        "pushes": 4,
+        "moveCount": 9
+    }
+}

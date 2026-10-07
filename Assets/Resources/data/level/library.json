@@ -1,0 +1,1266 @@
+{
+    "schemaVersion": 1,
+    "categories": [
+        "BuiltIn",
+        "Generated"
+    ],
+    "entries": [
+        {
+            "levelId": "L001",
+            "category": "BuiltIn",
+            "order": 0,
+            "deleted": false
+        },
+        {
+            "levelId": "L002",
+            "category": "BuiltIn",
+            "order": 1,
+            "deleted": false
+        },
+        {
+            "levelId": "L003",
+            "category": "BuiltIn",
+            "order": 2,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261004210118",
+            "category": "BuiltIn",
+            "order": 3,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261004213123",
+            "category": "BuiltIn",
+            "order": 4,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261004225145",
+            "category": "BuiltIn",
+            "order": 5,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261004232911",
+            "category": "Generated",
+            "order": 6,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005122029",
+            "category": "Generated",
+            "order": 7,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005122123",
+            "category": "Generated",
+            "order": 8,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005123421",
+            "category": "Generated",
+            "order": 9,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005123507",
+            "category": "Generated",
+            "order": 10,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005135340",
+            "category": "Generated",
+            "order": 11,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005142730824_1ce6f0",
+            "category": "Generated",
+            "order": 16,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005143926145_d6a22f",
+            "category": "Generated",
+            "order": 17,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005144112873_becd42",
+            "category": "Generated",
+            "order": 12,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005153949946_a49ffc",
+            "category": "Generated",
+            "order": 13,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005154015",
+            "category": "Generated",
+            "order": 14,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005160139",
+            "category": "Generated",
+            "order": 15,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005160142",
+            "category": "Generated",
+            "order": 18,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005160156",
+            "category": "Generated",
+            "order": 19,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005220953574_2c5b60",
+            "category": "Generated",
+            "order": 20,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005220956679_19cbe1",
+            "category": "Generated",
+            "order": 21,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005220957697_eb0236",
+            "category": "Generated",
+            "order": 22,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005220958575_c7a23a",
+            "category": "Generated",
+            "order": 23,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221008069_b023f2",
+            "category": "Generated",
+            "order": 24,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221010575_a4cf4c",
+            "category": "Generated",
+            "order": 25,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221014177_539d7b",
+            "category": "Generated",
+            "order": 26,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221021846_b206c2",
+            "category": "Generated",
+            "order": 27,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221021911_e35783",
+            "category": "Generated",
+            "order": 28,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221022211_0b6221",
+            "category": "Generated",
+            "order": 29,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221027623_62a701",
+            "category": "Generated",
+            "order": 30,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221027895_0ddb90",
+            "category": "Generated",
+            "order": 31,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_17bc95",
+            "category": "Generated",
+            "order": 32,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_39ec2c",
+            "category": "Generated",
+            "order": 33,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_3da0e6",
+            "category": "Generated",
+            "order": 34,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_4379fb",
+            "category": "Generated",
+            "order": 35,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_43d0ea",
+            "category": "Generated",
+            "order": 36,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_7b87f9",
+            "category": "Generated",
+            "order": 37,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_a5a267",
+            "category": "Generated",
+            "order": 38,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_e03267",
+            "category": "Generated",
+            "order": 39,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_e3ff7d",
+            "category": "Generated",
+            "order": 40,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221042797_f5b23c",
+            "category": "Generated",
+            "order": 41,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221044709_697d11",
+            "category": "Generated",
+            "order": 42,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221044955_fe008e",
+            "category": "Generated",
+            "order": 43,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221045984_9b81da",
+            "category": "Generated",
+            "order": 44,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221047175_91c6a2",
+            "category": "Generated",
+            "order": 45,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221047964_147de0",
+            "category": "Generated",
+            "order": 46,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221049018_acc77b",
+            "category": "Generated",
+            "order": 47,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221050672_7030c0",
+            "category": "Generated",
+            "order": 48,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221050742_c99b49",
+            "category": "Generated",
+            "order": 49,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221054212_26e986",
+            "category": "Generated",
+            "order": 50,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221056443_d5fed1",
+            "category": "Generated",
+            "order": 51,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221058092_950317",
+            "category": "Generated",
+            "order": 52,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221058255_fb27c8",
+            "category": "Generated",
+            "order": 53,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221059116_f3be94",
+            "category": "Generated",
+            "order": 54,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221100898_d763b8",
+            "category": "Generated",
+            "order": 55,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221102073_a86eb1",
+            "category": "Generated",
+            "order": 56,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221102718_aac4dc",
+            "category": "Generated",
+            "order": 57,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221103575_4957b6",
+            "category": "Generated",
+            "order": 58,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221103639_e4a913",
+            "category": "Generated",
+            "order": 59,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221103737_c808d8",
+            "category": "Generated",
+            "order": 60,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221108534_9a4011",
+            "category": "Generated",
+            "order": 61,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221109520_23ea5b",
+            "category": "Generated",
+            "order": 62,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221110104_2d938e",
+            "category": "Generated",
+            "order": 63,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221112581_c3aaea",
+            "category": "Generated",
+            "order": 64,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221116224_2fd426",
+            "category": "Generated",
+            "order": 65,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221119810_513287",
+            "category": "Generated",
+            "order": 66,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221119931_d8d9dc",
+            "category": "Generated",
+            "order": 67,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221120072_9d28bc",
+            "category": "Generated",
+            "order": 68,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221120558_74ae42",
+            "category": "Generated",
+            "order": 69,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221120568_580385",
+            "category": "Generated",
+            "order": 70,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221120738_b6479c",
+            "category": "Generated",
+            "order": 71,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221121089_054b81",
+            "category": "Generated",
+            "order": 72,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221122798_8b5565",
+            "category": "Generated",
+            "order": 73,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221124577_86f9a7",
+            "category": "Generated",
+            "order": 74,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221125531_565637",
+            "category": "Generated",
+            "order": 75,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221128225_0e1687",
+            "category": "Generated",
+            "order": 76,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221128438_df474e",
+            "category": "Generated",
+            "order": 77,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140230_36a490",
+            "category": "Generated",
+            "order": 78,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_1a80dd",
+            "category": "Generated",
+            "order": 79,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_2d16f3",
+            "category": "Generated",
+            "order": 80,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_84b1c0",
+            "category": "Generated",
+            "order": 81,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_92d1c3",
+            "category": "Generated",
+            "order": 82,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_b3172b",
+            "category": "Generated",
+            "order": 83,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140231_b4ce0a",
+            "category": "Generated",
+            "order": 84,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140232_1ed645",
+            "category": "Generated",
+            "order": 85,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140232_7f4b6b",
+            "category": "Generated",
+            "order": 86,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140232_9a2fa9",
+            "category": "Generated",
+            "order": 87,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221140232_d804c4",
+            "category": "Generated",
+            "order": 88,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221141300_616e09",
+            "category": "Generated",
+            "order": 89,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221147620_d21b24",
+            "category": "Generated",
+            "order": 90,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221147707_e00580",
+            "category": "Generated",
+            "order": 91,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221150805_ca9d96",
+            "category": "Generated",
+            "order": 92,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221150832_1b83b9",
+            "category": "Generated",
+            "order": 93,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221150983_f1bac2",
+            "category": "Generated",
+            "order": 94,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221151954_9ffd29",
+            "category": "Generated",
+            "order": 95,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221153313_eee4bc",
+            "category": "Generated",
+            "order": 96,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221153776_15ab14",
+            "category": "Generated",
+            "order": 97,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221155030_255b7d",
+            "category": "Generated",
+            "order": 98,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221156372_165bd2",
+            "category": "Generated",
+            "order": 99,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221159761_de2ce6",
+            "category": "Generated",
+            "order": 100,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005220739541_c31ffa",
+            "category": "Generated",
+            "order": 16,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261005221441516_912976",
+            "category": "Generated",
+            "order": 17,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261006114847490_7178a3",
+            "category": "Generated",
+            "order": 18,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261006114927919_d7cce8",
+            "category": "Generated",
+            "order": 19,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261006124414268_fa7781",
+            "category": "Generated",
+            "order": 20,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261006124441801_d96b0f",
+            "category": "Generated",
+            "order": 21,
+            "deleted": true
+        },
+        {
+            "levelId": "Generated_20261006124541530_60b3f4",
+            "category": "BuiltIn",
+            "order": 5,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124541889_2e88cc",
+            "category": "BuiltIn",
+            "order": 4,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124542047_c2b7ee",
+            "category": "BuiltIn",
+            "order": 6,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124543301_043f61",
+            "category": "BuiltIn",
+            "order": 7,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124544606_607f1a",
+            "category": "BuiltIn",
+            "order": 8,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124544670_7d7e9a",
+            "category": "BuiltIn",
+            "order": 9,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124546497_ae8a6a",
+            "category": "BuiltIn",
+            "order": 10,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622927_f9a327",
+            "category": "BuiltIn",
+            "order": 11,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_14ca35",
+            "category": "BuiltIn",
+            "order": 12,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_5876a5",
+            "category": "BuiltIn",
+            "order": 13,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_6473f9",
+            "category": "BuiltIn",
+            "order": 14,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_754f62",
+            "category": "BuiltIn",
+            "order": 15,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_8a4c7e",
+            "category": "BuiltIn",
+            "order": 16,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_d4a8ac",
+            "category": "BuiltIn",
+            "order": 17,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_e99808",
+            "category": "BuiltIn",
+            "order": 18,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_f1f242",
+            "category": "BuiltIn",
+            "order": 19,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622928_fef811",
+            "category": "BuiltIn",
+            "order": 20,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_12f759",
+            "category": "BuiltIn",
+            "order": 21,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_2a1369",
+            "category": "BuiltIn",
+            "order": 22,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_33fab5",
+            "category": "BuiltIn",
+            "order": 23,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_4ab225",
+            "category": "BuiltIn",
+            "order": 24,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_51e496",
+            "category": "BuiltIn",
+            "order": 25,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_819b73",
+            "category": "BuiltIn",
+            "order": 26,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_b04d91",
+            "category": "BuiltIn",
+            "order": 27,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622929_f71bd1",
+            "category": "BuiltIn",
+            "order": 28,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_062ca0",
+            "category": "BuiltIn",
+            "order": 29,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_1d975a",
+            "category": "BuiltIn",
+            "order": 30,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_247912",
+            "category": "BuiltIn",
+            "order": 31,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_2799a2",
+            "category": "BuiltIn",
+            "order": 32,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_376358",
+            "category": "BuiltIn",
+            "order": 33,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_509b9b",
+            "category": "BuiltIn",
+            "order": 34,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_5d2a78",
+            "category": "BuiltIn",
+            "order": 35,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_64b34e",
+            "category": "BuiltIn",
+            "order": 36,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_69df3c",
+            "category": "BuiltIn",
+            "order": 37,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_75c58a",
+            "category": "BuiltIn",
+            "order": 38,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_77b5ad",
+            "category": "BuiltIn",
+            "order": 39,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_885ed2",
+            "category": "BuiltIn",
+            "order": 40,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_9905c9",
+            "category": "BuiltIn",
+            "order": 41,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_cd98c4",
+            "category": "BuiltIn",
+            "order": 42,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_d75eac",
+            "category": "BuiltIn",
+            "order": 43,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_daea55",
+            "category": "BuiltIn",
+            "order": 44,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622930_ea5702",
+            "category": "BuiltIn",
+            "order": 45,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622931_00d6c1",
+            "category": "BuiltIn",
+            "order": 46,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622931_05b963",
+            "category": "BuiltIn",
+            "order": 47,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622931_b5f6ed",
+            "category": "BuiltIn",
+            "order": 48,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622931_d49641",
+            "category": "BuiltIn",
+            "order": 49,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622931_f55011",
+            "category": "BuiltIn",
+            "order": 50,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_07d10a",
+            "category": "BuiltIn",
+            "order": 51,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_28442e",
+            "category": "BuiltIn",
+            "order": 52,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_7c79a1",
+            "category": "BuiltIn",
+            "order": 53,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_8be3b8",
+            "category": "BuiltIn",
+            "order": 54,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_a2c0d3",
+            "category": "BuiltIn",
+            "order": 55,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_adf7f8",
+            "category": "BuiltIn",
+            "order": 56,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_c5badb",
+            "category": "BuiltIn",
+            "order": 57,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_e68542",
+            "category": "BuiltIn",
+            "order": 58,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_f67882",
+            "category": "BuiltIn",
+            "order": 59,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622932_ff8828",
+            "category": "BuiltIn",
+            "order": 60,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_1a463f",
+            "category": "BuiltIn",
+            "order": 61,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_5b9f0c",
+            "category": "BuiltIn",
+            "order": 62,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_728dfa",
+            "category": "BuiltIn",
+            "order": 63,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_97e57d",
+            "category": "BuiltIn",
+            "order": 64,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_9c50ec",
+            "category": "BuiltIn",
+            "order": 65,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_ae4170",
+            "category": "BuiltIn",
+            "order": 66,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_b1fa81",
+            "category": "BuiltIn",
+            "order": 67,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_bd31c0",
+            "category": "BuiltIn",
+            "order": 68,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_c79629",
+            "category": "BuiltIn",
+            "order": 69,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_cbad97",
+            "category": "BuiltIn",
+            "order": 70,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622933_e52854",
+            "category": "BuiltIn",
+            "order": 71,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622935_4854bc",
+            "category": "BuiltIn",
+            "order": 72,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622935_998ead",
+            "category": "BuiltIn",
+            "order": 73,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124622935_d80795",
+            "category": "BuiltIn",
+            "order": 74,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124623910_32c772",
+            "category": "BuiltIn",
+            "order": 75,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124625054_d782fc",
+            "category": "BuiltIn",
+            "order": 76,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124625196_3fc057",
+            "category": "BuiltIn",
+            "order": 77,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124626116_f30e7a",
+            "category": "BuiltIn",
+            "order": 78,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124627332_2c87a7",
+            "category": "BuiltIn",
+            "order": 79,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124631159_e00cac",
+            "category": "BuiltIn",
+            "order": 80,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124633473_2411c8",
+            "category": "BuiltIn",
+            "order": 81,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124633822_ed124a",
+            "category": "BuiltIn",
+            "order": 82,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124634049_bb3059",
+            "category": "BuiltIn",
+            "order": 83,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124634178_c8c033",
+            "category": "BuiltIn",
+            "order": 84,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124634509_8284b8",
+            "category": "BuiltIn",
+            "order": 85,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124635187_3df32e",
+            "category": "BuiltIn",
+            "order": 86,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124635403_82c35c",
+            "category": "BuiltIn",
+            "order": 87,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124635777_81f412",
+            "category": "BuiltIn",
+            "order": 88,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124636028_76cc02",
+            "category": "BuiltIn",
+            "order": 89,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124636115_43fb83",
+            "category": "BuiltIn",
+            "order": 90,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124636374_f6a96c",
+            "category": "BuiltIn",
+            "order": 91,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124637028_edb2cb",
+            "category": "BuiltIn",
+            "order": 92,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124637565_2e8d81",
+            "category": "BuiltIn",
+            "order": 93,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124637961_f55c51",
+            "category": "BuiltIn",
+            "order": 94,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124638425_312dc0",
+            "category": "BuiltIn",
+            "order": 95,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124639238_e88950",
+            "category": "BuiltIn",
+            "order": 96,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124639948_4e26d2",
+            "category": "BuiltIn",
+            "order": 97,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124640515_8e4d08",
+            "category": "BuiltIn",
+            "order": 98,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124640730_df8b01",
+            "category": "BuiltIn",
+            "order": 99,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124641273_e687f2",
+            "category": "BuiltIn",
+            "order": 100,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124641711_51fe5c",
+            "category": "BuiltIn",
+            "order": 101,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124641933_4279cd",
+            "category": "BuiltIn",
+            "order": 102,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006124642141_574c58",
+            "category": "BuiltIn",
+            "order": 103,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006151818018_10f403",
+            "category": "Generated",
+            "order": 104,
+            "deleted": false
+        },
+        {
+            "levelId": "Generated_20261006152140397_fe5df7",
+            "category": "BuiltIn",
+            "order": 3,
+            "deleted": false
+        }
+    ],
+    "publishedCategories": [
+        "BuiltIn"
+    ]
+}

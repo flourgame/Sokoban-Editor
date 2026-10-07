@@ -1,0 +1,91 @@
+{
+    "schemaVersion": 1,
+    "levelId": "L001",
+    "name": "第一步",
+    "verifiedMoves": 5,
+    "size": {
+        "width": 8,
+        "height": 7
+    },
+    "terrain": [
+        "########",
+        "#......#",
+        "#......#",
+        "#......#",
+        "#......#",
+        "#......#",
+        "########"
+    ],
+    "player": {
+        "x": 1,
+        "y": 1
+    },
+    "boxes": [
+        {
+            "x": 3,
+            "y": 3
+        }
+    ],
+    "goals": [
+        {
+            "x": 5,
+            "y": 3
+        }
+    ],
+    "metadata": {
+        "author": "Builtin",
+        "tags": [
+            "tutorial"
+        ],
+        "difficulty": 1,
+        "parPushes": 2,
+        "parMoves": 5,
+        "notes": "基础推动"
+    },
+    "generation": {
+        "isGenerated": false,
+        "seed": 0,
+        "generatorVersion": "",
+        "parameters": {
+            "width": 8,
+            "height": 8,
+            "boxCount": 2,
+            "minMoves": 20,
+            "maxMoves": 60,
+            "difficulty": 2,
+            "wallPercent": 20,
+            "seed": 0,
+            "budgetSeconds": 60,
+            "maxCandidates": 200,
+            "candidateSolveMs": 2000
+        },
+        "complexity": {
+            "evaluatorVersion": "complexity-1.0",
+            "valid": false,
+            "difficulty": 0,
+            "score": 0.0,
+            "dependencyScore": 0.0,
+            "planningScore": 0.0,
+            "spaceScore": 0.0,
+            "trapScore": 0.0,
+            "dependencyEdges": 0,
+            "dependencyChain": 0,
+            "temporaryExcursions": 0,
+            "goalDepartures": 0,
+            "boxRevisits": 0,
+            "sharedCriticalCells": 0,
+            "destinationBlockPairs": 0,
+            "solvedBranches": 0,
+            "deadBranches": 0,
+            "unknownBranches": 0,
+            "witnessMoves": "",
+            "explanation": ""
+        }
+    },
+    "solution": {
+        "status": "Solved",
+        "moves": "ddrRR",
+        "pushes": 2,
+        "moveCount": 5
+    }
+}

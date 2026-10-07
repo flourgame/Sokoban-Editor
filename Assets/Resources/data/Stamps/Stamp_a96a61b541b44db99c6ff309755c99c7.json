@@ -1,0 +1,129 @@
+{
+    "schemaVersion": 1,
+    "stampId": "Stamp_a96a61b541b44db99c6ff309755c99c7",
+    "name": "新建印章",
+    "width": 8,
+    "height": 8,
+    "cells": [
+        {
+            "x": 2,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "wall": false,
+            "goal": true,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "wall": false,
+            "goal": true,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "wall": false,
+            "goal": false,
+            "box": true,
+            "player": false
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "wall": false,
+            "goal": false,
+            "box": true,
+            "player": false
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "wall": false,
+            "goal": false,
+            "box": false,
+            "player": false
+        }
+    ]
+}

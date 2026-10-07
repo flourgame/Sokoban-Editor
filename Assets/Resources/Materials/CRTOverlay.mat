@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CRTOverlay
+  m_Shader: {fileID: 4800000, guid: 3773f804d71806f49a849508ba46ff19, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _Aberration: 0.04
+    - _ColorMask: 15
+    - _FlickerIntensity: 0.03
+    - _LowEffect: 0
+    - _NoiseIntensity: 0.15
+    - _ScanlineDensity: 400
+    - _ScanlineIntensity: 0.35
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TimeScale: 1
+    - _UseUIAlphaClip: 0
+    - _VignetteIntensity: 0.9
+    - _VignettePower: 2.6
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
