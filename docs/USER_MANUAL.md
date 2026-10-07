@@ -8,7 +8,7 @@
 
 ## 01 运行与主菜单
 
-通过 Unity Hub 打开工程，使用 Unity 2022.3.51f1c1。导入和编译完成后，打开 Assets/Scenes/start.unity 并点击 Play。若已取得独立运行版本，启动 Sokoban.exe 即可。
+通过 Unity Hub 打开工程，使用 Unity 2022.3.51f1c1。导入和编译完成后，打开 Assets/Scenes/start.unity 并点击 Play。若已取得独立运行版本，启动 Bulid/KuroTest.exe 即可。
 
 主菜单的「开始游戏」进入选关，「设置」调整音量和画面，「退出」关闭程序。存在未保存编辑文档时，退出会先询问如何处理。Unity 内请先点击 Game 窗口，使键盘输入进入游戏。
 
@@ -58,6 +58,12 @@
 ## 05 设置与开发入口
 
 设置中的音乐、音效、CRT 滑条即时作用于对应内容；CRT 为 0 时关闭该后处理。低特效降低部分画面效果开销。音乐、音效、CRT、动画和低特效均保存为本地偏好。
+
+**显示模式：** 从主菜单「设置」或游戏暂停菜单「设置」进入，点击「窗口模式」或「无边框全屏」切换。无边框全屏覆盖当前显示器；返回窗口模式时恢复上次窗口尺寸。模式和窗口尺寸自动保存在本地，下次启动继续使用。
+
+窗口模式可拖动系统窗口边缘调整大小，最小为 **1280×720**；缩到更小时会自动调整回最小尺寸。游戏界面按比例缩放，不强制窗口保持 16:9，宽高比不同时会保留空余背景。编辑器沿用相同缩放适配，不增加显示设置入口，调整尺寸不会改变关卡内容。
+
+显示模式功能用于 Windows 独立运行版；Unity 中的 Game 预览窗口由 Unity 编辑器控制，设置面板中的显示模式按钮不可用。
 
 ![图 07 设置面板](images/00-settings.png)
 
@@ -406,7 +412,7 @@
 | 玩家进度和成绩 | 持久目录 / progress.json | 同左 |
 | 音量与画面偏好 | Unity PlayerPrefs | Unity PlayerPrefs |
 
-当前 Windows 默认持久目录为 %USERPROFILE%/AppData/LocalLow/DefaultCompany/kuluobishi。工程中公司名、产品名仍为默认配置；若之后修改，会影响持久目录位置，需考虑旧存档迁移。
+当前 Windows 持久目录为 `%USERPROFILE%/AppData/LocalLow/flourgame/KuroTest`，对应工程中的公司名 flourgame、产品名 KuroTest。早期版本使用 `%USERPROFILE%/AppData/LocalLow/DefaultCompany/kuluobishi`；如需沿用旧存档，请先退出游戏并备份，再将旧目录中的关卡、印章和进度文件复制到新目录。音量与显示等 PlayerPrefs 偏好不随这些文件迁移。
 
 Unity 里直接保存会写入工程资源，因此正式制作前建议备份或建立版本管理。独立运行版不向安装目录写入自建内容。关卡与印章均为 JSON；只把 JSON 文本复制出来，不等于已经保存到关卡库。
 

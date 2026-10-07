@@ -8,6 +8,7 @@
 2. 在 **Window → Package Manager** 中确认已安装 **Unity UI / uGUI 1.0.0**（`com.unity.ugui`）和 **TextMesh Pro 3.0.7**（`com.unity.textmeshpro`）。
 3. 点击 **Assets → Import Package → Custom Package…**，选择 `KuroTest.unitypackage`，保留全部资源并点击 **Import**，等待导入和脚本编译完成。
 4. 在 **Edit → Project Settings → Player → Other Settings → Active Input Handling** 中选择 **Input Manager (Old)** 或 **Both**；如 Unity 提示重启，按提示重启。
+5. 在 **Player → Resolution and Presentation** 中，将 **Fullscreen Mode** 设为 **Windowed**，默认宽高设为 **1280 / 720**，关闭 **Default Is Native Resolution**，勾选 **Resizable Window**。这样构建出的游戏支持拖动窗口边缘调整尺寸；游戏设置中可切换为无边框全屏，并自动记住模式和窗口尺寸。
 
 普通 `.unitypackage` 包含 Assets 资源，不包含源工程的 `Packages` 与 `ProjectSettings`。下面的场景和 Shader 设置需要在目标工程中完成。
 

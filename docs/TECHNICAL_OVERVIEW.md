@@ -16,6 +16,7 @@
 | SokobanGameplaySceneController.cs、SokobanBoardView.cs | 游戏流程、输入、地图视野与实体显示 |
 | SokobanUI.cs、SokobanBalatroSkin.cs、Sokoban*Motion.cs | 共用 UI、样式、动效 |
 | SokobanPresentationAudio.cs、SokobanCrtOverlay.cs | 音频与后处理 |
+| SokobanDisplaySettings.cs、SokobanSettingsPanel.cs | Windows 窗口 / 无边框全屏、窗口尺寸与显示偏好保存、游戏设置界面 |
 | Assets/Scripts/Game/Editor/SokobanGameSceneBaker.cs | Unity 编辑器中的游戏场景/预制体烘焙工具 |
 | Assets/Scripts/LevelEditor/SokobanEditorController.cs | 画布、文档、输入、剪贴板、撤销、保存与试玩 |
 | SokobanEditorSolver / Generation / Management / Stamps 等 partial 文件 | 分离编辑器各功能页面，仍属于同一控制器 |
@@ -35,6 +36,10 @@ SokobanAnimationSettings 统一管理动画偏好，默认开启，以 PlayerPre
 game.unity 包含已烘焙的游戏 UI 和引用，棋盘运行时按格使用 Resources/Prefabs/Board 的预制体创建。其他页面主要通过 uGUI 动态创建。新工具页优先复用 SokobanUI、主题和对话框规则，避免再次各写一套数据逻辑。
 
 玩家输入使用 Unity 旧 Input API。CRT 对鼠标位置做采样坐标映射，避免曲面变形后显示位置与按钮点击位置错位。当前编辑器不使用玩家 CRT 皮肤，逻辑色块与游戏贴图的差异属于现有设计。
+
+Windows 显示模式由跨场景的 SokobanDisplaySettings 管理。窗口模式使用 FullScreenMode.Windowed，无边框全屏使用 FullScreenMode.FullScreenWindow；PlayerPrefs 分别保存模式和窗口客户区宽高，切换到全屏时保留窗口尺寸，启动时恢复。分辨率变化按稳定后的状态记录，窗口缩放结束后保存，避免将切换中的临时尺寸写入偏好。
+
+Player Settings 开启可调整窗口尺寸，首次运行默认为 1280×720 窗口；小于该尺寸时调整回支持下限。显示器尺寸不足时按实际显示器范围限制。共用 CanvasScaler 使用 ScaleWithScreenSize / Expand 和 1920×1080 参考工作区，按较小缩放比完整呈现 UI，宽高比不同的窗口保留背景余量。显示模式入口位于主菜单和游戏暂停菜单的设置，编辑器不增加设置入口。
 
 ## 求解与生成
 
@@ -62,5 +67,5 @@ verifiedMoves 为可信解答总移动数，-1 未验证，0 为合法零步解�
 
 主界面的 JSON 导入要求明确提供尺寸、地形、玩家、箱子与目标，通过结构检查后分配新 ID，打开未保存页签。关卡管理的 XLSX 导出读取已保存内容；导入先校验整表并预览，名称、分类与顺序列用于整理关卡，完整布局与元数据保存在配置JSON列。导入按顺序创建新文件，最后一次性提交分类索引；提交失败时撤回本次新建文件。
 
-XLSX 使用 .NET ZIP 与 XML API 实现标准 Open XML 工作簿，支持内联字符串、共享字符串和富文本字符串，不依赖 Office。写入时将文本显式保存为字符串，读取时拒绝公式；对文件大小、解压大小、行列数和单元格字符数设置上限。Windows 独立运行版使用系统文件选择窗口，Unity 内使用 EditorUtility 文件选择窗口，也可手动填写完整路径。
+XLSX 使用 .NET ZIP 与 XML API 实现标准 Open XML 工作簿，支持内联字符串、共享字符串和富文本字符串，不依赖 Office。写入时将文本显式保存为字符串，读取时拒绝公式；对文件大小、解压大小、行列数和单元格字符数设置上限。Windows 独立运行版在独立 STA 线程上打开系统文件选择窗口，文件名缓冲区使用显式原生堆内存，选择、取消或失败后释放，避免大缓冲区封送造成堆栈溢出。Unity 内使用 EditorUtility 文件选择窗口，也可手动填写完整路径。
 

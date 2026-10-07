@@ -12,6 +12,7 @@ namespace Kuluobishi.Sokoban
         private static int inputFrame = -1;
         private static float musicVolume = SokobanPresentationAudio.DefaultVolume, soundVolume = SokobanPresentationAudio.DefaultVolume, crtIntensity = 0.22f;
         private static bool lowEffects;
+        private Button windowMode, borderlessMode;
         public static bool IsOpen => current != null && current.gameObject.activeInHierarchy;
         public static bool BlocksInput => IsOpen || inputFrame == Time.frameCount;
 
@@ -38,18 +39,32 @@ namespace Kuluobishi.Sokoban
             SokobanUI.EnsureEventSystem(); EventSystem.current?.SetSelectedGameObject(null);
             var backdrop = SokobanUI.Panel(transform, "SettingsBackdrop", new Color(0f, 0f, 0f, 0.76f), Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
             var dialog = SokobanUI.Panel(backdrop, "SettingsDialog", SokobanTheme.Panel, Vector2.one * 0.5f, Vector2.one * 0.5f,
-                new Vector2(-340f, -270f), new Vector2(340f, 270f));
-            Label(dialog, "SettingsTitle", "设置", 40, new Vector2(0f, 210f), new Vector2(600f, 76f));
-            Volume(dialog, "MusicVolume", "音乐", 126f, musicVolume, value => { musicVolume = value; PlayerPrefs.SetFloat("Sokoban.MusicVolume", value); SokobanPresentationAudio.RefreshVolumes(); });
-            Volume(dialog, "SoundVolume", "音效", 58f, soundVolume, value => { soundVolume = value; PlayerPrefs.SetFloat("Sokoban.SfxVolume", value); SokobanPresentationAudio.RefreshVolumes(); });
-            Volume(dialog, "CrtIntensity", "CRT", -10f, crtIntensity, value => { crtIntensity = value; PlayerPrefs.SetFloat("Sokoban.CRTIntensity", value); SokobanCrtOverlay.RefreshAll(); });
-            ToggleRow(dialog, "AnimationToggle", "动画", -86f, SokobanAnimationSettings.Enabled, SokobanAnimationSettings.SetEnabled);
-            ToggleRow(dialog, "LowEffectsToggle", "低特效", -158f, lowEffects, value => { lowEffects = value; PlayerPrefs.SetInt("Sokoban.LowEffects", value ? 1 : 0); SokobanCrtOverlay.RefreshAll(); });
+                new Vector2(-340f, -320f), new Vector2(340f, 320f));
+            Label(dialog, "SettingsTitle", "设置", 40, new Vector2(0f, 252f), new Vector2(600f, 76f));
+            Volume(dialog, "MusicVolume", "音乐", 170f, musicVolume, value => { musicVolume = value; PlayerPrefs.SetFloat("Sokoban.MusicVolume", value); SokobanPresentationAudio.RefreshVolumes(); });
+            Volume(dialog, "SoundVolume", "音效", 102f, soundVolume, value => { soundVolume = value; PlayerPrefs.SetFloat("Sokoban.SfxVolume", value); SokobanPresentationAudio.RefreshVolumes(); });
+            Volume(dialog, "CrtIntensity", "CRT", 34f, crtIntensity, value => { crtIntensity = value; PlayerPrefs.SetFloat("Sokoban.CRTIntensity", value); SokobanCrtOverlay.RefreshAll(); });
+            ToggleRow(dialog, "AnimationToggle", "动画", -38f, SokobanAnimationSettings.Enabled, SokobanAnimationSettings.SetEnabled);
+            ToggleRow(dialog, "LowEffectsToggle", "低特效", -110f, lowEffects, value => { lowEffects = value; PlayerPrefs.SetInt("Sokoban.LowEffects", value ? 1 : 0); SokobanCrtOverlay.RefreshAll(); });
+            Label(dialog, "DisplayModeLabel", "显示模式", 24, new Vector2(-218f, -188f), new Vector2(108f, 52f), TextAnchor.MiddleLeft);
+            windowMode = SokobanUI.Button(dialog, "DisplayWindowed", "窗口模式", new Vector2(176f, 52f), () => SokobanDisplaySettings.SetBorderless(false));
+            Position(windowMode.GetComponent<RectTransform>(), new Vector2(-44f, -188f), new Vector2(176f, 52f));
+            borderlessMode = SokobanUI.Button(dialog, "DisplayBorderless", "无边框全屏", new Vector2(212f, 52f), () => SokobanDisplaySettings.SetBorderless(true));
+            Position(borderlessMode.GetComponent<RectTransform>(), new Vector2(162f, -188f), new Vector2(212f, 52f));
+            SokobanDisplaySettings.Changed += RefreshDisplay;
+            RefreshDisplay();
             var close = SokobanUI.Button(dialog, "SettingsBack", "返回", new Vector2(520f, 56f), Close, SokobanTheme.Accent, SokobanTheme.AccentText);
-            Position(close.GetComponent<RectTransform>(), new Vector2(0f, -220f), new Vector2(520f, 56f));
+            Position(close.GetComponent<RectTransform>(), new Vector2(0f, -268f), new Vector2(520f, 56f));
             close.GetComponentInChildren<Text>().raycastTarget = false;
             SokobanPlayerPresentation.Adopt(transform);
             if (SokobanPlayerPresentation.IsEnabled) SokobanCrtOverlay.Attach(transform);
+        }
+
+        private void RefreshDisplay()
+        {
+            var available = SokobanDisplaySettings.Supported && !SokobanDisplaySettings.IsSwitching;
+            windowMode.interactable = available && SokobanDisplaySettings.Borderless;
+            borderlessMode.interactable = available && !SokobanDisplaySettings.Borderless;
         }
 
         private static void ToggleRow(Transform parent, string name, string title, float y, bool initial, System.Action<bool> changed)
@@ -114,6 +129,6 @@ namespace Kuluobishi.Sokoban
         {
             if (!SokobanRuntimeContext.IsQuitConfirmationOpen && Input.GetKeyDown(KeyCode.Escape)) Close();
         }
-        private void OnDestroy() { if (current == this) current = null; }
+        private void OnDestroy() { SokobanDisplaySettings.Changed -= RefreshDisplay; if (current == this) current = null; }
     }
 }

@@ -10,6 +10,35 @@ using UnityEngine.UI;
 
 public sealed partial class SokobanStandaloneSmoke
 {
+#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
+    // A separate Windows UI driver selects/cancels the real native dialogs.
+    private IEnumerator NativeDialogFlow()
+    {
+        yield return null;
+        var source = Path.Combine(folder, "native-input.xlsx");
+        File.Copy(Path.Combine(Application.dataPath, "..", "native-input.xlsx"), source, true);
+        File.WriteAllText(Path.Combine(folder, "dialog-stage.txt"), "open");
+        var selected = SokobanExchangeFileDialog.Choose(false, source);
+        Check(Path.GetFullPath(selected) == source, "native open dialog returns the selected XLSX path");
+        var rows = SokobanLevelExchange.ParseRows(SokobanXlsx.Read(selected));
+        Check(rows.Count == 105, "native selection reads and validates the 105-level workbook");
+        var library = new SokobanLibraryStore(Path.Combine(folder, "levels"), Path.Combine(folder, "deleted"));
+        var imported = SokobanLevelExchange.SaveNew(rows, Path.Combine(folder, "levels", "Generated"), library,
+            new List<SokobanLevelDescriptor>());
+        Check(imported.Count == rows.Count, "all selected workbook levels save to isolated storage");
+        File.WriteAllText(Path.Combine(folder, "dialog-stage.txt"), "cancel-open");
+        Check(SokobanExchangeFileDialog.Choose(false, source) == "", "native open cancellation returns an empty path");
+        File.WriteAllText(Path.Combine(folder, "dialog-stage.txt"), "save");
+        var destination = Path.Combine(folder, "native-output.xlsx");
+        selected = SokobanExchangeFileDialog.Choose(true, destination);
+        Check(Path.GetFullPath(selected) == destination, "native save dialog returns the selected XLSX path");
+        SokobanXlsx.Write(selected, SokobanLevelExchange.ExportRows(imported));
+        Check(SokobanLevelExchange.ParseRows(SokobanXlsx.Read(selected)).Count == rows.Count,
+            "native save selection exports a readable workbook");
+        File.WriteAllText(Path.Combine(folder, "dialog-stage.txt"), "cancel-save");
+        Check(SokobanExchangeFileDialog.Choose(true, destination) == "", "native save cancellation returns an empty path");
+    }
+#endif
     private IEnumerator ExchangeFlow()
     {
         EnterEditor(); yield return WaitScene("editor");

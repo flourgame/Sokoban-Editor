@@ -122,6 +122,12 @@ public sealed partial class SokobanStandaloneSmoke : MonoBehaviour
     }
     private IEnumerator Flow()
     {
+        if (Environment.GetCommandLineArgs().Contains("-sokobanDisplayOnly"))
+        { yield return DisplayFlow(); yield break; }
+#if UNITY_STANDALONE_WIN && !UNITY_EDITOR
+        if (Environment.GetCommandLineArgs().Contains("-sokobanNativeDialogOnly"))
+        { yield return NativeDialogFlow(); yield break; }
+#endif
         yield return new WaitForSecondsRealtime(0.5f);
         if (Environment.GetCommandLineArgs().Contains("-sokobanExchangeOnly"))
         { yield return ExchangeFlow(); yield break; }
